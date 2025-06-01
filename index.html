@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="kyle.css">
 </head>
 <body>
-  <div class="container">
+ <div class="container">
     <div class="welcome">
       Bienvenue chez Olivier
     </div>
@@ -19,7 +19,7 @@
     <form action="https://formsubmit.co/olivierzannou16@gmail.com" method="POST">
       <!-- empêche que l’expéditeur doive mettre son mail -->
       <input type="hidden" name="_captcha" value="false">
-      <form action="merci.html" method="GET">
+      <input type="hidden" name="_next" value="merci.html">
       <textarea name="message" placeholder="Écris ton message ici..." required></textarea>
       <button type="submit">Envoyer anonymement</button>
     </form>
